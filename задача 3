@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float f ;
+    cout << "How many kilometers did you drive:_" << endl;
+    cin >>f;
+    float d;
+    cout << "How many liters of gasoline were used up:_" << endl;
+    cin >>d;
+    float p=f/d;
+    cout <<"Rashod="<<p<<endl;
+    return 0;
+}
