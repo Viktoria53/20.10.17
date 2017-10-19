@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float f ;
+    cout << "See your height in feet :_" << endl;
+    cin >>f;
+    float d;
+    cout << "See your height in inches:_" << endl;
+    cin >>d;
+    float m;
+    cout <<"Enter your growth in pounds:_"<< endl ;
+    cin >>m;
+    float p=(m/2.2)/((d*0.0254)*(d*0.0254));
+    cout <<"IMT="<<p<<endl;
+    return 0;
+}
